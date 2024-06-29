@@ -13,7 +13,7 @@ public class Main {
             System.out.println("Enter the Circle center y: ");
             float y = sc.nextFloat();
             System.out.println("Enter the Circle radius: ");
-            float r =(float) Math.sqrt(sc.nextDouble());
+            float r =sc.nextFloat();
             Points circle = new Points(x, y, r);
 
 
